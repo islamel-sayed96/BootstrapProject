@@ -8,7 +8,51 @@
          <link rel="stylesheet" href="Assets/Css/style.css">
     </head>
     <body>
-        <header class="vh-100  align-items-center d-flex">
+        <!-- navbar - bootstrap -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#Home">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- me-auto > left / ms-auto > right -->
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://islamel-sayed96.github.io/Rotaract-portfolio/" target="_blank">Contact US</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Front-End</a></li>
+                        <li><a class="dropdown-item" href="#">Back-End</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Testominal</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Join Us</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header - Section -->
+        <header class="vh-100  align-items-center d-flex" id="Home">
             <div class="header-content ps-4 text-white ">
                 <h1>We Are Professional</h1>
                 <p>Developer , Graphics & Web Design</p>
@@ -28,6 +72,8 @@
                     <a href="https://islamel-sayed96.github.io/Rotaract-portfolio/"> View Portfolio </a>
             </div>
         </header>
+
+
 
         <!-- Bootstrap - js -->
         <script src="Assets/js/bootstrap.bundle.min.js"></script>
