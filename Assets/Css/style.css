@@ -7,3 +7,23 @@ header{
 .icon a{
     color: white;
 }
+.title h2{
+    font-size: 5rem;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about{
+    background-image: url(../Images/light_dot.jpg);
+}
+.text-main{
+    color: #4726e1;
+}
